@@ -18,7 +18,7 @@
 
 set -e
 
-DEVICE=flash-common
+DEVICE=beta-common
 VENDOR=lge
 
 # Load extract_utils and do some sanity checks

@@ -18,7 +18,7 @@
 
 set -e
 
-DEVICE=flash-common
+DEVICE=beta-common
 VENDOR=lge
 
 INITIAL_COPYRIGHT_YEAR=2020

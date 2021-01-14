@@ -64,7 +64,7 @@ volume index from 0 to 100.
     <volume stream="AUDIO_STREAM_ALARM" deviceCategory="DEVICE_CATEGORY_EXT_MEDIA"
                                         ref="DEFAULT_DEVICE_CATEGORY_EXT_MEDIA_VOLUME_CURVE"/>
     <volume stream="AUDIO_STREAM_NOTIFICATION" deviceCategory="DEVICE_CATEGORY_HEADSET"
-                                               ref="DEVICE_CATEGORY_HEADSET_CUSTOM"/>
+                                               ref="DEFAULT_DEVICE_CATEGORY_HEADSET_VOLUME_CURVE"/>
     <volume stream="AUDIO_STREAM_NOTIFICATION" deviceCategory="DEVICE_CATEGORY_SPEAKER" 
                                                ref="DRC_SPK_ATTN_COMBO_CURVE"/>
     <volume stream="AUDIO_STREAM_NOTIFICATION" deviceCategory="DEVICE_CATEGORY_EARPIECE"
@@ -145,25 +145,24 @@ volume index from 0 to 100.
                                         ref="FULL_SCALE_VOLUME_CURVE"/>
     <reference name="DRC_SPK_ATTN_SYSTEM_CURVE">
     <!--DRC SPK SYSTEM CURVE -->
-        <point>1,-4100</point>
-        <point>33,-3200</point>
+        <point>1,-4100</point>   <!-- default : 3700 -->
+        <point>33,-3200</point>  <!-- default : 3000 -->
         <point>66,-2300</point>
-        <point>100,-1400</point>
+        <point>100,-1400</point>  <!-- default : 300 -->
     </reference>
     <reference name="DRC_SPK_ATTN_COMBO_CURVE">
     <!-- DRC SPK RING NOTI ALARM CURVE -->
         <point>1,-3700</point>
         <point>35,-2800</point>
         <point>65,-2000</point>
-        <point>80,-1450</point>
-	<point>90,-1100</point>
+        <point>80,-1400</point>
         <point>100,-450</point>
     </reference>
     <reference name="DRC_SPK_ATTN_MEDIA_CURVE">
     <!--DRC SPK MEDIA CURVE -->
-        <point>1,-5100</point>
-        <point>66,-1900</point>
-	<point>86,-800</point>
+        <point>1,-4700</point>
+        <point>66,-1800</point>  <!-- default : 2300 -->
+        <point>93,-400</point>   <!-- default : non --> 
         <point>100,0</point>
     </reference>
 
@@ -192,13 +191,6 @@ volume index from 0 to 100.
         <point>60,-2700</point>
         <point>85,-1300</point>
         <point>100,0</point>
-    </reference>
-    <reference name="DEVICE_CATEGORY_HEADSET_CUSTOM">
-    <!--Volume Curve for NOTI HEADSET ONLY -->
-        <point>1,-5750</point>
-        <point>33,-4150</point>
-        <point>66,-2500</point>
-        <point>100,-800</point>
     </reference>
 </volumes>
 
