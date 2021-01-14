@@ -43,8 +43,8 @@ PRODUCT_COPY_FILES += \
     $(COMMON_BETA_PATH)/audio/mixer_paths_tavil.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_tavil.xml
 
 # Bootanimation
-TARGET_SCREEN_WIDTH := 1440
-TARGET_SCREEN_HEIGHT := 3120
+TARGET_SCREEN_WIDTH := 1080
+TARGET_SCREEN_HEIGHT := 2248
 
 # DAC
 PRODUCT_PACKAGES += \
@@ -52,7 +52,7 @@ PRODUCT_PACKAGES += \
     vendor.lge.hardware.audio.dac.control@1.0-service
 
 # Display
-TARGET_SCREEN_DENSITY := 560
+TARGET_SCREEN_DENSITY := 401
 
 # Keylayout - Assist
 PRODUCT_COPY_FILES += \
