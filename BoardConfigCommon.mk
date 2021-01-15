@@ -16,7 +16,7 @@
 
 COMMON_BETA_PATH := device/lge/beta-common
 
-# inherit from common v50
+# inherit from common sm8150
 -include device/lge/sm8150-common/BoardConfigCommon.mk
 
 # Bluetooth
@@ -26,8 +26,8 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(COMMON_BETA_PATH)/bluetooth
 TARGET_KERNEL_CONFIG := vendor/lineage_beta_defconfig
 
 # Partitions
-BOARD_SYSTEMIMAGE_PARTITION_SIZE := 4336910336
-BOARD_USERDATAIMAGE_PARTITION_SIZE := 107715436544
+BOARD_SYSTEMIMAGE_PARTITION_SIZE := 4022337536
+BOARD_USERDATAIMAGE_PARTITION_SIZE := 108587851776
 
 # Recovery
 TARGET_RECOVERY_UI_MARGIN_HEIGHT := 90
