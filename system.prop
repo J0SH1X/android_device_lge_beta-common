@@ -4,3 +4,5 @@
 
 # Voice assistant
 ro.opa.device_model_id=v45-deviceaction-v45-nffuo5
+
+lineage.updater.uri=https://raw.githubusercontent.com/J0SH1X/Lineage-OTA/lineage-18.1/betalm.json
