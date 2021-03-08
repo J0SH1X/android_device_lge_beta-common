@@ -221,6 +221,8 @@ vendor/firmware/ipa_uc.elf
 vendor/firmware/ipa_uc.mdt
 
 # NFC
+vendor/bin/hw/android.hardware.nfc@1.2-service-pn55x
+vendor/etc/init/android.hardware.nfc@1.2-service-pn55x.rc
 vendor/etc/libnfc-nci.conf
 vendor/etc/libnfc-nxp.conf
 vendor/etc/libnfc-nxp-hk.conf
@@ -228,6 +230,12 @@ vendor/etc/libnfc-nxp-KR.conf
 vendor/etc/libnfc-nxp-lg.conf
 vendor/etc/libnfc-nxp-SG.conf
 vendor/etc/libnfc-nxp-US.conf
+vendor/lib64/libLGnfc_config_vendor.so
+vendor/lib64/nfc_lg.pn55x.so
+vendor/lib64/vendor.nxp.nxpnfc@1.0.so
+vendor/lib/libLGnfc_config_vendor.so
+vendor/lib/nfc_lg.pn55x.so
+vendor/lib/vendor.nxp.nxpnfc@1.0.so
 
 # NFC - Firmware
 vendor/firmware/libpn553_fw.so:vendor/lib/libpn553_fw.so
