@@ -100,6 +100,10 @@ vendor/lib/rfsa/adsp/VorbisDecoderModule.so.1
 vendor/lib/rfsa/adsp/WmaProDecoderModule.so.1
 vendor/lib/rfsa/adsp/WmaStdDecoderModule.so.1
 
+# Audio
+vendor/lib/hw/audio.primary.msmnile.so
+vendor/lib64/hw/audio.primary.msmnile.so
+
 # Audio amplifier firmware
 vendor/firmware/Tfa9872.cnt
 
