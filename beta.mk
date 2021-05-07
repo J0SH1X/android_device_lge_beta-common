@@ -59,6 +59,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(COMMON_BETA_PATH)/keylayout/touch_dev_2nd.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/touch_dev_2nd.idc
 
+# Livedisplay - SunlightEnhancement
+PRODUCT_PACKAGES += \
+    vendor.lineage.livedisplay@2.0-service.lge_flash \
+    vendor.lineage.livedisplay@2.0-service.lge_flash.xml
+
 # Media
 PRODUCT_COPY_FILES += \
     $(COMMON_BETA_PATH)/media/media_codecs_performance.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance.xml \
