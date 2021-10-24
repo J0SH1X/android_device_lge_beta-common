@@ -180,6 +180,7 @@ vendor/lib/libgf_hal.so
 vendor/usr/idc/goodix_fp_key.idc
 vendor/usr/keylayout/goodix_fp_key.kl
 
+
 # Graphics - firmware
 vendor/firmware/a225_pfp.fw
 vendor/firmware/a225_pm4.fw
@@ -210,6 +211,9 @@ vendor/firmware/a640_zap.elf
 vendor/firmware/a640_zap.mdt
 vendor/firmware/leia_pfp_470.fw
 vendor/firmware/leia_pm4_470.fw
+
+# GNSS
+vendor/etc/gnss_antenna_info.conf
 
 # IPA Firmware
 vendor/firmware/ipa_fws.b00
