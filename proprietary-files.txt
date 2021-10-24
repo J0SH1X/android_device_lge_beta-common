@@ -171,6 +171,7 @@ vendor/lib64/vendor.qti.hardware.qseecom@1.0.so
 # Fingerprint
 vendor/etc/init/hw/init.lge.fingerprints.rc
 vendor/lib64/hw/fingerprint.msmnile.so
+vendor/lib64/libfpsph.so
 vendor/lib64/libgf_algo.so
 vendor/lib64/libgf_hal.so
 vendor/lib/hw/fingerprint.msmnile.so
