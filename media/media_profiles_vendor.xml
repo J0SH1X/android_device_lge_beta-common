@@ -155,7 +155,7 @@
 
         <EncoderProfile quality="highspeedlow" fileFormat="mp4" duration="30">
             <Video codec="h264"
-                   bitRate="48000000"
+                   bitRate="56000000"
                    width="1280"
                    height="720"
                    frameRate="240" />
@@ -203,7 +203,7 @@
 
         <EncoderProfile quality="2160p" fileFormat="mp4" duration="30">
             <Video codec="h264"
-                   bitRate="48000000"
+                   bitRate="64000000"
                    width="3840"
                    height="2160"
                    frameRate="30" />
@@ -470,7 +470,7 @@
 
         <EncoderProfile quality="2160p" fileFormat="mp4" duration="30">
             <Video codec="h264"
-                   bitRate="48000000"
+                   bitRate="64000000"
                    width="3840"
                    height="2160"
                    frameRate="30" />
@@ -482,7 +482,7 @@
 
         <EncoderProfile quality="highspeedlow" fileFormat="mp4" duration="30">
             <Video codec="h264"
-                   bitRate="48000000"
+                   bitRate="56000000"
                    width="1280"
                    height="720"
                    frameRate="120" />
