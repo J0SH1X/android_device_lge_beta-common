@@ -156,6 +156,10 @@ vendor/lib64/libtzdrmgenprov.so
 vendor/lib64/libwvhidl.so
 vendor/lib64/vendor.qti.hardware.qseecom@1.0.so
 
+vendor/lib/libwfdutils_proprietary.so
+vendor/lib/libwfdcommonutils_proprietary.so
+vendor/lib/libwfdmmservice_proprietary.so
+
 # Fingerprint
 vendor/lib64/hw/fingerprint.msmnile.so
 vendor/lib64/libfpsph.so
