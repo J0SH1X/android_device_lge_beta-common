@@ -23,7 +23,7 @@ COMMON_BETA_PATH := device/lge/beta-common
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(COMMON_BETA_PATH)/bluetooth
 
 # Kernel
-TARGET_KERNEL_CONFIG := vendor/lineage_beta_defconfig
+TARGET_KERNEL_CONFIG := vendor/aosp_beta_defconfig
 
 # Partitions
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 4022337536
